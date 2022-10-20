@@ -3,7 +3,7 @@ import React from 'react';
 const List = () => {
   return (
     <>
-      <h2>list component</h2>
+      <img src='https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg'/>
     </>
   );
 };
