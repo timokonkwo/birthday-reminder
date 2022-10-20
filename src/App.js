@@ -5,10 +5,18 @@ function App() {
 
   const [people, setPeople] = useState(data)
 
+  const birthdays = people.map(person => {
+    return <List person={person} key={person.id}/>
+  })
+
   return <main>
       <section className='container'>
         <h3>{people.length} birthdays today</h3>
-        <List people = {people}/>
+        
+        <div>
+          {birthdays}
+        </div>
+
         <button onClick={() => setPeople([])}>Clear All</button>
       </section>
   </main>
