@@ -20,8 +20,8 @@ function App() {
 
         <button onClick={() => setPeople([])}>Clear All</button>
 
-        <div className='toggler'> 
-            <div onClick={() => setDarkMode(prev => !prev)} className='slider'></div>
+        <div className='toggler' onClick={() => setDarkMode(prev => !prev)}> 
+            <div  className='slider'></div>
         </div>
       </section>
   </main>

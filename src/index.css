@@ -138,7 +138,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: .3s;
 }
 
 .container {
@@ -149,6 +148,8 @@ main {
   border-radius: var(--radius);
   padding: 1.5rem 2rem;
   box-shadow: var(--dark-shadow);
+  transition: .3s;
+
 }
 .container h3 {
   font-weight: normal;
